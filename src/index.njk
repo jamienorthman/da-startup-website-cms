@@ -1,0 +1,122 @@
+---
+title: Darmstadt Startup Group
+layout: 'base.njk'
+---
+
+
+
+<section class="side-by-side">
+    
+    <div class="sbs-container" id="hero-info">
+        <h1>Supporting a rapidly growing B2B tech 
+            startup ecosystem.
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sequi, nisi accusantium maiores assumenda eos 
+            sit laborum tempora laboriosam. Culpa quibusdam 
+            voluptatibus molestiae dolorem porro esse ipsam 
+            explicabo consequatur voluptate beatae.</p>
+        <button class="sbs-btn"><a href="#">See Companies</a></button>
+    </div>
+    
+    <div class="stats-container">
+        <div class="stats">
+            <p>10 Startups</p>
+            <p>> 100 Employees</p>
+        </div>
+        <div class="stats">
+            <p>> 10M$ Revenue</p>
+            <p>> 10M$ Funding</p>
+        </div>
+    </div>
+</section>
+
+<section class="side-by-side">
+
+    <div class="img-container" id="city-img">
+        <img src="https://images.unsplash.com/photo-1676017601898-09f22d8305f1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+    
+    <div class="sbs-container" id="city-info">
+        <h1>City of science and innovation</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sequi, nisi accusantium maiores assumenda eos 
+            sit laborum tempora laboriosam. Culpa quibusdam 
+            voluptatibus molestiae dolorem porro esse ipsam 
+            explicabo consequatur voluptate beatae.</p>
+        <button class="sbs-btn"><a href="#">Learn More</a></button>
+    </div>
+    
+</section>
+
+<section class="startup-section" id="companies">
+    <h1 class="startup-title">Member Startups</h1>
+    <div class="startups">
+        {%- for startup in collections.startup | reverse -%}
+            {% include 'startup.njk' %}
+        {%- endfor %}
+    </div>
+</section>
+
+<!--CITY SECTION-->
+
+<h1 class="city-title" id="city">Why Darmstadt?</h1>
+<section class="side-by-side">
+    <div class="sbs-container">
+        <h2>World-Class Reasearch</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sequi, nisi accusantium maiores assumenda eos 
+            sit laborum tempora laboriosam. Culpa quibusdam 
+            voluptatibus molestiae dolorem porro esse ipsam 
+            explicabo consequatur voluptate beatae.</p>
+    </div>
+    <div class="img-container">
+        <img class="city-img" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+</section>
+
+<section class="side-by-side">
+    <div class="sbs-container">
+        <h2>Home to Industry Leaders</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sequi, nisi accusantium maiores assumenda eos 
+            sit laborum tempora laboriosam. Culpa quibusdam 
+            voluptatibus molestiae dolorem porro esse ipsam 
+            explicabo consequatur voluptate beatae.</p>
+    </div>
+    <div class="img-container">
+        <img class="city-img" src="https://images.unsplash.com/photo-1538449327350-43b4fcfd35ac?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+</section>
+
+<section class="side-by-side">
+    <div class="sbs-container">
+        <h2>At the Heart of the Metro Region</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sequi, nisi accusantium maiores assumenda eos 
+            sit laborum tempora laboriosam. Culpa quibusdam 
+            voluptatibus molestiae dolorem porro esse ipsam 
+            explicabo consequatur voluptate beatae.</p>
+    </div>
+    <div class="img-container">
+        <img class="city-img" src="https://images.unsplash.com/photo-1702307383737-5c6c30a2c650?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+</section>
+
+<section class="events-section" id="events">
+    <h1 class="events-title">Events</h1>
+    <div class="events">
+        {%- for event in collections.event | reverse -%}
+            {% include 'event.njk' %}
+        {%- endfor %}
+    </div>
+</section>
+
+<section class="jobs-section" id="jobs">
+    <h1>Jobs</h1>
+    <div class="jobs">
+        {%- for job in collections.job | reverse -%}
+            {% include 'job.njk' %}
+        {%- endfor %}
+    </div>
+</section>
