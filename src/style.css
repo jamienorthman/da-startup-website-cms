@@ -1,0 +1,434 @@
+/* ----- RESET STYLES ----- */
+*, *::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    line-height: 1.5;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+input, button,
+textarea, select {
+  font: inherit;
+}
+
+/* ----- LAYOUT ----- */
+
+header, 
+section, 
+footer {
+    padding: 1.25em 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 1em;
+}
+
+header,
+.stats-container,
+button,
+footer {
+    background-color: beige;
+}
+
+.main-logo {
+    display: inline-block;
+}
+
+img, .stats-container,
+.startup-container,
+.event-container,
+.job-container {
+    border-radius: 5px;
+}
+
+header {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+    margin: 0;
+}
+
+.side-by-side {
+    display: flex;
+    padding: 4em;
+}
+
+.sbs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sbs-container > p {
+    margin-top: 0;
+}
+
+.sbs-container > button {
+    margin-top: 1em;
+}
+
+button {
+    padding: 0.7em;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 25%;
+    cursor: pointer;
+}
+
+button,
+.stats-container,
+.startup-container,
+.event-container,
+.job-title {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+nav a,
+button a,
+footer a  {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stats-container {
+    padding: 2em;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin-top: 2em;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+}
+
+nav a,
+footer a {
+    font-size: 0.9rem;
+}
+
+/* ----- NAVIGATION ----- */
+
+nav a {
+    padding: 0.85em 0;
+    display: block;
+}
+
+label {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0.3em 0.85em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+}
+
+/* ----- STARTUP SECTION ----- */
+
+.startup-section,
+.events-section,
+.jobs-section {
+    padding: 0 4em 4em 4em;
+}
+
+.startup-container,
+.event-container,
+.job-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 590px;
+    padding: 2em;
+}
+
+.logo, .slogan {
+    align-self: center;
+}
+
+.startup-btn,
+.job-btn,
+.event-btn {
+    margin: 2em auto auto;
+}
+/* ----- CITY SECTION ----- */
+
+img {
+    width: 100%;
+}
+
+/* ----- EVENTS SECTION ----- */
+
+.event-img-container {
+    max-width: 90%;
+}
+
+.event-img-container,
+.event-info {
+    align-self: center;
+}
+
+/* ----- JOBS SECTION ----- */
+
+.job-title {
+    text-align: center;
+    background-color: beige;
+    padding: 2em;
+}
+
+
+/* ----- MEDIA QUERIES ----- */
+@media (max-width: 767px) {
+    header {
+        /*display: flex;
+        align-items: center;
+        justify-content: space-around;*/
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 2.875em 0.5em;
+    }
+
+    nav {
+        width: 100%;
+        position: relative;
+        background-color: beige;
+        overflow: hidden;
+        transition: max-height .3s ease-out;
+    }
+    
+    #nav-items a {
+        display: block;
+        padding: 30px;
+        color: black;
+        border-top: 1px solid black;
+    }
+
+    #nav-items a:active {
+        text-decoration: underline;
+    }
+    
+    label {
+        display: inline-block; 
+        color: black;
+        font-style: normal;
+        font-size: 1.5em;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    #nav-items,
+    #hamburger {
+        display: none;
+    }
+
+    #hamburger:checked ~ nav {
+        max-height: 100%;
+    }
+
+    #hamburger:checked ~ nav #nav-items {
+        display: block;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding: 1em;
+        margin: 0.5em;
+    }
+
+    .stats-container {
+        width: 100%;
+    }
+
+    .startup-section,
+    .events-section,
+    .jobs-section {
+        padding: 1.5em;
+    }
+
+    .city-title {
+        text-align: center;
+    }
+
+    .jobs-section {
+        margin-bottom: 3em;
+    }
+
+    .startups,
+    .events,
+    .jobs {
+        margin-top: 0.8em;
+    }
+
+    .startup-container,
+    .event-container,
+    .job-container {
+        max-width: 100%;
+        margin-top: 1em;
+    }
+
+    button {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav label, #hamburger {
+        display: none;
+    }
+
+    section {
+        padding: 2.875em 0;        
+    }
+    
+    header,
+    nav ul {
+        display: flex;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.875em 4em;
+    }
+
+    ul {
+        gap: 2em;
+    }
+    
+    
+    nav li {
+        margin-left: 1.25em;
+    }
+    
+    .side-by-side {
+        align-items: center;
+        justify-content: space-around;
+        gap: 2em;
+        margin: 0 auto;
+    }
+
+    .sbs-container > button {
+        width: 40%;
+    }
+
+    .sbs-container,
+    .img-container,
+    .stats-container {
+        width: 50%;
+    }
+
+    #hero-info,
+    #city-img {
+        padding-right: 4em;
+    }
+
+    .stats-container,
+    #city-info {
+        padding-left: 4em;
+    }
+    
+    button {
+        display: inline-block;
+        margin-right: 0.5em;
+    }
+    
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    .subheading {
+        font-size: 1.25rem;
+    }
+    
+    p {
+        font-size: 1.125rem;
+    }
+
+    .city-img {
+        width: 100%;
+    }
+
+    .startups,
+    .events,
+    .jobs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-gap: 3em;
+    }
+
+    .logo {
+        width: 463px;
+        height: 257px;
+    }
+
+    .city-title {
+        margin-left: 1.5em;
+    }
+}
+
+@media (max-width: 1445px) {
+    .startups, .events, .jobs {
+        margin: auto;
+      }
+}
+
