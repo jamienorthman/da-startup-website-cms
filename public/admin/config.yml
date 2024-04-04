@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets"
+public_folder: "/assets"
+collections:
+  - name: "startups"
+    label: "Startup"
+    folder: "src/startups"
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Slogan", name: "slogan", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["startup"] }
+      - { label: "Company link", name: "companyLink", widget: "string" }
+  - name: "events" 
+    label: "Event" 
+    folder: "src/events"
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - { label: "Event Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["event"] }
+      - { label: "Image alt text", name: "imageAlt", widget: "string" }
+      - { label: "Event link", name: "eventLink", widget: "string" }
+  - name: "jobs" 
+    label: "Job" 
+    folder: "src/jobs"
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["job"] }
+      - { label: "Link to job", name: "jobLink", widget: "string" }

@@ -75,7 +75,7 @@ header {
 
 .side-by-side {
     display: flex;
-    padding: 4em;
+    /*padding: 4em;*/
 }
 
 .sbs-container {
@@ -172,11 +172,11 @@ a:hover {
 
 /* ----- STARTUP SECTION ----- */
 
-.startup-section,
+/*.startup-section,
 .events-section,
 .jobs-section {
     padding: 0 4em 4em 4em;
-}
+}*/
 
 .startup-container,
 .event-container,
@@ -224,11 +224,8 @@ img {
 
 
 /* ----- MEDIA QUERIES ----- */
-@media (max-width: 767px) {
+@media (max-width: 934px) {
     header {
-        /*display: flex;
-        align-items: center;
-        justify-content: space-around;*/
         position: relative;
         top: 0;
         width: 100%;
@@ -286,6 +283,10 @@ img {
         margin: 0.5em;
     }
 
+    .sbs-container > p, h1 {
+        max-width: 65ch;
+    }
+
     .stats-container {
         width: 100%;
     }
@@ -322,7 +323,7 @@ img {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 935px) {
     main {
         max-width: 80%;
         margin: 0 auto;

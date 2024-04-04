@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darmstadt Startup Group</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
     <body>
         <header>
@@ -138,7 +139,11 @@
     <h1 class="events-title">Events</h1>
     <div class="events"><div class="event-container">
     <div class="event-img-container">
-        <img class="event-img" src="https://images.unsplash.com/photo-1582192730841-2a682d7375f9?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img 
+        class="event-img" 
+        src="https://images.unsplash.com/photo-1582192730841-2a682d7375f9?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Tech conference with big screen on a stage"
+        >
     </div>
     <p class="event-info"> 
         3D Pipeline Days 2024 will bring together...
@@ -164,5 +169,18 @@
         <footer>
     <a href="#">Impressum</a>
 </footer>
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                        window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                        });
+                    }
+                });
+            }
+        </script>
+
     </body>
 </html>
