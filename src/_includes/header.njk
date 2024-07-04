@@ -8,10 +8,10 @@
         <!-- Site Navigation -->
         <nav>
             <ul id="nav-items">
-                <li><a href="#companies">COMPANIES</a></li>
-                <li><a href="#city">CITY</a></li>
-                <li><a href="#events">EVENTS</a></li>
-                <li><a href="#jobs">JOBS</a></li>
+                <li><a class="{{ 'active' if '/#companies' == page.fileSlug }}" href="#companies">COMPANIES</a></li>
+                <li><a a class="{{ 'active' if '/#cities' == page.fileSlug }}" href="#city">CITY</a></li>
+                <li><a a class="{{ 'active' if '/#events' == page.fileSlug }}" href="#events">EVENTS</a></li>
+                <li><a a class="{{ 'active' if '/#jobs' == page.fileSlug }}" href="#jobs">JOBS</a></li>
             </ul>
         </nav>
 </header>

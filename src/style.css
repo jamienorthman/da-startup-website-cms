@@ -1,3 +1,52 @@
+:root {
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-900: 900;
+
+    --ff-heading: "Space Grotesk", sans-serif;
+    --ff-body: "Inconsolata", monospace;
+  
+    --clr-primary-200: hsla(169, 70%, 95%, 1);
+    --clr-primary-300: hsla(169, 100%, 39%, 1);
+    --clr-primary-400: hsla(169, 100%, 26%, 1);
+    --clr-primary-500: hsla(169, 100%, 16%, 1);
+  
+    --clr-neutral-100: hsla(0, 0%, 100%, 1);
+    --clr-neutral-300: hsla(0, 0%, 50%, 1);
+    --clr-neutral-400: hsla(0, 0%, 40%, 1);
+    --clr-neutral-500: hsla(0, 0%, 60%, 1);
+    --clr-neutral-900: hsla(0, 0%, 10%, 1);
+}
+
+/* space-grotesk-700 - latin */
+@font-face { 
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('assets/fonts/space-grotesk-v16-latin-700.woff2') format('woff2');
+}
+
+/* inconsolata-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/inconsolata-v32-latin-regular.woff2') format('woff2'); 
+}
+  
+  /* inconsolata-700 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assets/fonts/inconsolata-v32-latin-700.woff2') format('woff2'); 
+}
+  
+  
+
 /* ----- RESET STYLES ----- */
 *, *::before,
 *::after {
@@ -12,16 +61,19 @@ body {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--ff-body);
     height: 100vh;
     line-height: 1.5;
     position: relative;
-    background-color: whitesmoke;
+    background-color: var(--clr-primary-200);
+    color: var(--clr-primary-500);
 }
 
 h1, h2, h3, h4,
 button, input, label {
   line-height: 1.1;
+  font-family: var(--ff-heading);
+  color: var(--clr-primary-400);
 }
 
 ul[role='list'],
@@ -54,7 +106,12 @@ header,
 .stats-container,
 button,
 footer {
-    background-color: beige;
+    background-color: var(--clr-primary-500);
+    color: var(--clr-neutral-100);
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .main-logo {
@@ -76,6 +133,40 @@ header {
 .side-by-side {
     display: flex;
     /*padding: 4em;*/
+}
+
+.cs-title {
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--clr-primary-400);
+    position: relative;
+}
+
+.cs-text {
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--clr-primary-400);
+}
+
+.cs-card-group {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: clamp(1rem, 2.75vw, 1.25rem);
+}
+
+.cs-item {
+    border-radius: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: clamp(1.25rem, 2.4vw, 1.5rem);
+    list-style: none;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
 }
 
 .sbs-container {
@@ -111,7 +202,8 @@ button,
 nav a,
 button a,
 footer a  {
-    color: black;
+    font-family: var(--ff-heading);
+    color: var(--clr-neutral-100);
     text-decoration: none;
     cursor: pointer;
 }
@@ -139,6 +231,7 @@ footer {
 nav a,
 footer a {
     font-size: 0.9rem;
+    color: var(--clr-neutral-100);
 }
 
 /* ----- NAVIGATION ----- */
@@ -218,7 +311,8 @@ img {
 
 .job-title {
     text-align: center;
-    background-color: beige;
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-500);
     padding: 2em;
 }
 
@@ -235,7 +329,7 @@ img {
     nav {
         width: 100%;
         position: relative;
-        background-color: beige;
+        background-color: var(--clr-primary-500);
         overflow: hidden;
         transition: max-height .3s ease-out;
     }
@@ -243,8 +337,8 @@ img {
     #nav-items a {
         display: block;
         padding: 30px;
-        color: black;
-        border-top: 1px solid black;
+        color: var(--clr-neutral-100);
+        border-top: 1px solid var(--clr-neutral-100);
     }
 
     #nav-items a:active {
@@ -253,7 +347,7 @@ img {
     
     label {
         display: inline-block; 
-        color: black;
+        color: var(--clr-neutral-100);
         font-style: normal;
         font-size: 1.5em;
         cursor: pointer;
@@ -291,6 +385,78 @@ img {
         width: 100%;
     }
 
+    .cs-card-group {
+        margin: 0 auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        /* 16px - 20px */
+        gap: clamp(1rem, 2.75vw, 1.25rem);
+    }
+    .cs-item {
+        border-radius: 1rem;
+        margin-left: 0;
+        background-color: #fff;
+        width: 100%;
+        box-sizing: border-box;
+        grid-column: span 12;
+        /* 20px - 24px */
+        padding: clamp(1.25rem, 2.4vw, 1.5rem);
+        list-style: none;
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+    }
+    .cs-h3 {
+        font-size: 1.25rem;
+        line-height: 1.2em;
+        margin: 0 0 1.25rem 0;
+        color: var(--headerColor);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .cs-picture {
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background-color: var(--primaryLight);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cs-icon {
+        height: 0.75rem;
+        width: auto;
+    }
+    .cs-number {
+        display: block;
+        margin: 0 0 0.75rem 0;
+        font-size: 1.5625rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+    .cs-item-text {
+        margin: 0;
+        font-size: 0.875rem;
+        line-height: 1.5em;
+        color: var(--bodyTextColor);
+    }
+    .cs-background {
+        z-index: -1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 60%;
+        width: 100%;
+    }
+    .cs-background img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     .startup-section,
     .events-section,
     .jobs-section {
@@ -298,7 +464,7 @@ img {
     }
 
     .city-title {
-        text-align: center;
+        padding: 0.6em;
     }
 
     .jobs-section {
@@ -379,6 +545,24 @@ img {
         padding-right: 4em;
     }
 
+    .cs-wrapper {
+        width: 52%;
+        max-width: 39.375rem;
+        /* sends it to the right */
+        order: 1;
+        position: relative;
+    }
+    .cs-item {
+        grid-column: span 6;
+    }
+    .cs-background {
+        height: 150%;
+        width: 115%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .stats-container,
     #city-info {
         padding-left: 4em;
@@ -423,7 +607,7 @@ img {
     }
 
     .city-title {
-        margin-left: 1.5em;
+        padding: 0;
     }
 }
 
