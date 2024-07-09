@@ -34,3 +34,24 @@ collections:
       - { label: "Role", name: "role", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["job"] }
       - { label: "Link to job", name: "jobLink", widget: "string" }
+  - name: "hero"
+    label: "hero"
+    folder: "src/hero"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Paragraph", name: "paragraph", widget: "string" }
+      - { label: "Button Text", name: "buttonText", widget: "string" }
+      - { label: "Stat1 Title", name: "stat1Title", widget: "string" }
+      - { label: "Stat1 Number", name: "stat1Number", widget: "string" }
+      - { label: "Stat1 Para", name: "stat1Para", widget: "string" }
+      - { label: "Stat2 Title", name: "stat2Title", widget: "string" }
+      - { label: "Stat2 Number", name: "stat2Number", widget: "string" }
+      - { label: "Stat2 Para", name: "stat2Para", widget: "string" }
+      - { label: "Stat3 Title", name: "stat3Title", widget: "string" }
+      - { label: "Stat3 Number", name: "stat3Number", widget: "string" }
+      - { label: "Stat3 Para", name: "stat3Para", widget: "string" }
+      - { label: "Stat4 Title", name: "stat4Title", widget: "string" }
+      - { label: "Stat4 Number", name: "stat4Number", widget: "string" }
+      - { label: "Stat4 Para", name: "stat4Para", widget: "string" }
