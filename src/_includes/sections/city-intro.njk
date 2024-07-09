@@ -1,11 +1,11 @@
-{% set cityIntro = collections.cityIntro[0] %}
+{% set intro = collections.intro[0] %}
 
 <div class="img-container" id="city-img">
-        <img src="{{ cityIntro.data.image }}" alt="{{ cityIntro.data.imageAlt }}">
+        <img src="{{ intro.data.image }}" alt="{{ intro.data.imageAlt }}">
 </div>
 
 <div class="sbs-container" id="city-info">
-    <h1>{{ cityIntro.data.title }}</h1>
-    <p>{{ cityIntro.data.paragraph }}</p>
-    <a href={{ cityIntro.data.cityLink}}><button class="sbs-btn">{{ cityIntro.data.buttonText }}</button></a>
+    <h1>{{ intro.data.title }}</h1>
+    <p>{{ intro.data.paragraph }}</p>
+    <a href={{ intro.data.cityLink}}><button class="sbs-btn">{{ intro.data.buttonText }}</button></a>
 </div>

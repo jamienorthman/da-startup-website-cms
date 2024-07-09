@@ -41,7 +41,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Paragraph", name: "paragraph", widget: "string" }
+      - { label: "Paragraph", name: "paragraph", widget: "markdown" }
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Button Text", name: "buttonText", widget: "string" }
       - { label: "Stat1 Title", name: "stat1Title", widget: "string" }
@@ -56,7 +56,7 @@ collections:
       - { label: "Stat4 Title", name: "stat4Title", widget: "string" }
       - { label: "Stat4 Number", name: "stat4Number", widget: "string" }
       - { label: "Stat4 Para", name: "stat4Para", widget: "string" }
-  - name: "cityIntro"
+  - name: "intro"
     label: "City Intro"
     folder: "src/city-intro"
     create: true
@@ -65,6 +65,24 @@ collections:
       - { label: "City Image", name: "image", widget: "image" }
       - { label: "Image alt text", name: "imageAlt", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Paragraph", name: "paragraph", widget: "string" }
+      - { label: "Paragraph", name: "paragraph", widget: "markdown" }
       - { label: "City Link", name: "cityLink", widget: "string" }
       - { label: "Button text", name: "buttonText", widget: "string" }
+  - name: "city"
+    label: "City"
+    folder: "src/city"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Heading1", name: "heading1", widget: "string" }
+      - { label: "Paragraph1", name: "paragraph1", widget: "markdown" }
+      - { label: "Image1", name: "image1", widget: "image" }
+      - { label: "Image1 alt text", name: "imageAlt1", widget: "string" }
+      - { label: "Heading2", name: "heading2", widget: "string" }
+      - { label: "Paragraph2", name: "paragraph2", widget: "markdown" }
+      - { label: "Image2", name: "image2", widget: "image" }
+      - { label: "Image2 alt text", name: "imageAlt2", widget: "string" }
+      - { label: "Heading3", name: "heading3", widget: "string" }
+      - { label: "Paragraph3", name: "paragraph3", widget: "markdown" }
+      - { label: "Image3", name: "image3", widget: "image" }
+      - { label: "Image3 alt text", name: "imageAlt3", widget: "string" }

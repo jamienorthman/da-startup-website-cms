@@ -3,6 +3,6 @@ image: https://images.unsplash.com/photo-1676017601898-09f22d8305f1?q=80&w=1740&
 imageAlt: City of Darmstadt
 title: City of science and innovation
 paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nisi accusantium maiores assumenda eos sit laborum tempora laboriosam. Culpa quibusdam voluptatibus molestiae dolorem porro esse ipsam explicabo consequatur voluptate beatae.
-cityLink: "#"
+cityLink: empty
 buttonText: Learn More
 ---
