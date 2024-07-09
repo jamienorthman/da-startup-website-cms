@@ -118,11 +118,21 @@ footer {
     display: inline-block;
 }
 
-img, .stats-container,
 .startup-container,
 .event-container,
 .job-container {
-    border-radius: 5px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 590px;
+    padding: 2em;
+}
+
+.startup-btn,
+.job-btn,
+.event-btn {
+    margin: 2em auto auto;
 }
 
 header {
@@ -156,8 +166,9 @@ header {
 
 .cs-card-group {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12, auto);
     gap: clamp(1rem, 2.75vw, 1.25rem);
+    place-content: center;
 }
 
 .cs-item {
@@ -178,17 +189,20 @@ header {
     margin-top: 0;
 }
 
-.sbs-container > button {
+.sbs-container > a {
     margin-top: 1em;
 }
 
-button {
-    padding: 0.7em;
+a button {
+    padding: 1em;
     border: none;
     border-radius: 3px;
     font-weight: bold;
-    width: 25%;
     cursor: pointer;
+}
+
+a button:hover {
+    color: var(--clr-primary-300);
 }
 
 button,
@@ -200,7 +214,7 @@ button,
 }
 
 nav a,
-button a,
+a button,
 footer a  {
     font-family: var(--ff-heading);
     color: var(--clr-neutral-100);
@@ -255,8 +269,8 @@ ul li {
     padding: 0.3em 0.85em;
 }
 
-a:hover {
-    text-decoration: underline;
+nav a:hover {
+    color: var(--clr-primary-300);
 }
 
 .contact {
@@ -265,35 +279,14 @@ a:hover {
 
 /* ----- STARTUP SECTION ----- */
 
-/*.startup-section,
-.events-section,
-.jobs-section {
-    padding: 0 4em 4em 4em;
-}*/
-
-.startup-container,
-.event-container,
-.job-container {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    max-width: 590px;
-    padding: 2em;
-}
-
 .logo, .slogan {
     align-self: center;
-}
-
-.startup-btn,
-.job-btn,
-.event-btn {
-    margin: 2em auto auto;
 }
 /* ----- CITY SECTION ----- */
 
 img {
     width: 100%;
+    border-radius: 1rem;
 }
 
 /* ----- EVENTS SECTION ----- */
@@ -314,6 +307,7 @@ img {
     color: var(--clr-neutral-100);
     background-color: var(--clr-primary-500);
     padding: 2em;
+    border-radius: 5px;
 }
 
 
@@ -427,7 +421,7 @@ img {
         align-items: center;
     }
     .cs-icon {
-        height: 0.75rem;
+        height: 2rem;
         width: auto;
     }
     .cs-number {
@@ -485,10 +479,6 @@ img {
     .job-container {
         max-width: 100%;
         margin-top: 1em;
-    }
-
-    button {
-        width: 50%;
     }
 }
 
@@ -557,6 +547,7 @@ img {
     }
     .cs-item {
         grid-column: span 6;
+        min-width: 270px;
     }
     .cs-background {
         height: 150%;
