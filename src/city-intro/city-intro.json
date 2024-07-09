@@ -1,4 +1,3 @@
 {
-  "layout": "/sections/city-intro.njk",
-  "tags": "city-intro"
+  "layout": "/sections/city-intro.njk"
 }

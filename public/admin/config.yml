@@ -35,13 +35,14 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["job"] }
       - { label: "Link to job", name: "jobLink", widget: "string" }
   - name: "hero"
-    label: "hero"
+    label: "Hero"
     folder: "src/hero"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Paragraph", name: "paragraph", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
       - { label: "Button Text", name: "buttonText", widget: "string" }
       - { label: "Stat1 Title", name: "stat1Title", widget: "string" }
       - { label: "Stat1 Number", name: "stat1Number", widget: "string" }
@@ -55,3 +56,15 @@ collections:
       - { label: "Stat4 Title", name: "stat4Title", widget: "string" }
       - { label: "Stat4 Number", name: "stat4Number", widget: "string" }
       - { label: "Stat4 Para", name: "stat4Para", widget: "string" }
+  - name: "cityIntro"
+    label: "City Intro"
+    folder: "src/city-intro"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "City Image", name: "image", widget: "image" }
+      - { label: "Image alt text", name: "imageAlt", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Paragraph", name: "paragraph", widget: "string" }
+      - { label: "City Link", name: "cityLink", widget: "string" }
+      - { label: "Button text", name: "buttonText", widget: "string" }

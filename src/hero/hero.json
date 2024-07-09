@@ -1,4 +1,3 @@
 {
-  "layout": "/sections/hero.njk",
-  "tags": "hero"
+  "layout": "/sections/hero.njk"
 }

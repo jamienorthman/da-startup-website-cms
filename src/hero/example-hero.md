@@ -1,6 +1,7 @@
 ---
 title: Supporting a rapidly growing B2B tech startup ecosystem
 paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nisi accusantium maiores assumenda eos sit laborum tempora laboriosam. Culpa quibusdam voluptatibus molestiae dolorem porro esse ipsam explicabo consequatur voluptate beatae.
+link: "#"
 buttonText: See Companies
 stat1Title: Dedication
 stat1Number: 10 Startups
