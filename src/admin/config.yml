@@ -74,6 +74,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Heading1", name: "heading1", widget: "string" }
       - { label: "Paragraph1", name: "paragraph1", widget: "markdown" }
       - { label: "Image1", name: "image1", widget: "image" }

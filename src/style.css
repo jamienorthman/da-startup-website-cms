@@ -124,9 +124,15 @@ footer {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     max-width: 590px;
     padding: 2em;
+}
+
+.startup-container:hover,
+.event-container:hover,
+.job-container:hover {
+    border: 1.5px solid hsla(169, 100%, 39%, 1);
 }
 
 .startup-btn,
@@ -235,6 +241,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em;
     padding: 2em;
     margin-top: 2em;
     bottom: 0;
@@ -269,7 +276,8 @@ ul li {
     padding: 0.3em 0.85em;
 }
 
-nav a:hover {
+nav a:hover,
+footer a:hover {
     color: var(--clr-primary-300);
 }
 
@@ -533,8 +541,7 @@ img {
         width: 50%;
     }
 
-    #hero-info,
-    #city-img {
+    #hero-info {
         padding-right: 4em;
     }
 
