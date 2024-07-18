@@ -67,6 +67,10 @@ body {
     position: relative;
     background-color: var(--clr-primary-200);
     color: var(--clr-primary-500);
+    background-image: url('/assets/svgs/bg-graphic.svg'), url('/assets/svgs/bg-graphic-top.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top;
+    background-attachment: fixed, fixed;
 }
 
 h1, h2, h3, h4,
@@ -625,6 +629,7 @@ img {
 
     .city-title {
         padding: 0;
+        margin-top: 4em;
     }
 }
 
