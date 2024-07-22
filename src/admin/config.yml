@@ -35,7 +35,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["job"] }
       - { label: "Link to job", name: "jobLink", widget: "string" }
   - name: "hero"
-    label: "Hero"
+    label: "Hero Section"
     folder: "src/hero"
     create: true
     slug: "{{slug}}"
@@ -57,7 +57,7 @@ collections:
       - { label: "Stat4 Number", name: "stat4Number", widget: "string" }
       - { label: "Stat4 Para", name: "stat4Para", widget: "string" }
   - name: "intro"
-    label: "City Intro"
+    label: "City Intro Section"
     folder: "src/city-intro"
     create: true
     slug: "{{slug}}"
@@ -69,7 +69,7 @@ collections:
       - { label: "City Link", name: "cityLink", widget: "string" }
       - { label: "Button text", name: "buttonText", widget: "string" }
   - name: "city"
-    label: "City"
+    label: "City Section"
     folder: "src/city"
     create: true
     slug: "{{slug}}"
