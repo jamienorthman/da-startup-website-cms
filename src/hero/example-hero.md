@@ -1,6 +1,11 @@
 ---
 title: Supporting a rapidly growing B2B tech startup ecosystem
-paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nisi accusantium maiores assumenda eos sit laborum tempora laboriosam. Culpa quibusdam voluptatibus molestiae dolorem porro esse ipsam explicabo consequatur voluptate beatae.
+paragraph: This is a placeholder paragraph of the 'Hero Section' using the CMS
+  from this website's admin panel. After receiving the email invitation, add
+  /admin to this website's URL and log in. You will be redirected to the CMS. Do
+  not select 'New Hero Section' as this will duplicate the section. Instead,
+  just edit the current one as desired. All text and images on this website are
+  configurable through the CMS.
 link: "#"
 buttonText: See Companies
 stat1Title: Dedication
