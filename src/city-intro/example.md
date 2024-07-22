@@ -4,10 +4,10 @@ imageAlt: City of Darmstadt
 title: City of science and innovation
 paragraph: This is a placeholder paragraph of the 'City Intro Section' using the
   CMS from this website's admin panel. After receiving the email invitation, add
-  /admin to this website's URL and log in. You will be redirected to the CMS. Do
-  not select 'New City Intro' as this will add a duplicate section. Instead,
-  just edit the current one as desired. All text and images on this website are
-  configurable through the CMS.
+  '/admin' to this website's URL in the browser and log in. You will be
+  redirected to the CMS. Do not select 'New City Intro Section' as this will add
+  a duplicate section. Instead, just edit the current one as desired. All text
+  and images on this website are configurable through the CMS.
 cityLink: empty
 buttonText: Learn More
 ---
