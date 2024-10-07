@@ -209,7 +209,6 @@ a button {
     border: none;
     border-radius: 3px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 a button:hover {
@@ -235,7 +234,7 @@ button,
 
 nav a,
 a button,
-footer a  {
+footer a, a  {
     font-family: var(--ff-heading);
     color: var(--clr-neutral-100);
     text-decoration: none;
@@ -345,6 +344,14 @@ img {
 
 /* ----- MEDIA QUERIES ----- */
 @media (max-width: 934px) {
+    main {
+        min-height: 100vh;
+    }
+
+    .impressum {
+        padding: 1em;
+    }
+    
     header {
         position: relative;
         top: 0;
@@ -383,7 +390,7 @@ img {
         cursor: pointer;
         position: absolute;
         right: 25px;
-        top: 60px;
+        top: 45px;
     }
 
     #nav-items,
@@ -519,6 +526,7 @@ img {
         max-width: 1400px;
         margin: 0 auto;
         padding: 0 2em;
+        min-height: 100vh;
     }
     
     nav label, #hamburger {
