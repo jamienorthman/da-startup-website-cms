@@ -8,7 +8,7 @@ paragraph: This is a placeholder paragraph of the 'Hero Section' using the CMS
   images on this website are configurable through the CMS.
 link: "#"
 buttonText: See Companies
-stat1Title: Dedication
+stat1Title: Ecosystem
 stat1Number: 10 Startups
 stat1Para: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 stat2Title: Experience
@@ -17,7 +17,7 @@ stat2Para: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 stat3Title: Growth
 stat3Number: 10M Revenue
 stat3Para: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-stat4Title: Investment
+stat4Title: Funding
 stat4Number: 10M Funding
 stat4Para: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
