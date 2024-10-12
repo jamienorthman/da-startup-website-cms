@@ -1,28 +1,28 @@
 ---
 title: Supporting a rapidly growing B2B tech startup ecosystem
-paragraph: >-
-  This is a placeholder paragraph of the 'Hero Section' using the CMS from this
-  website's admin panel. After receiving the email invitation, add '/admin' to
-  this website's URL in the browser *(only email addresses that received the
-  invitation can access the CMS). Log in with your own password that you choose.
-  You will be redirected to the CMS. Do not select 'New Hero Section' as this
-  will duplicate the section. Instead, just edit the current one as desired. All
-  text and images on this website are configurable through the CMS.
-
-
-  It is recommended to have the window of the live site open while in another window, using the CMS to better see what is being edited. After clicking 'Publish', allow about 2-3 minutes to view changes live.
+paragraph: As a group of spinoffs from a single research institute, the
+  [Fraunhofer IGD](https://www.igd.fraunhofer.de/en.html), the **Tech Startup
+  Alliance Darmstadt**, founded in 2024, brings together bight minds, innovators
+  and ambitious founders that are eager to disrupt the state of the art in
+  technology, to the benefit of both our economy and society.
 link: "#"
 buttonText: See Companies
-stat1Title: Ecosystem
-stat1Number: 10 Startups
-stat1Para: This is Stat 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-stat2Title: Experience
-stat2Number: 100 Employees
-stat2Para: This is Stat 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+stat1Title: Growing Ecosystem
+stat1Number: 6 Tech Startups
+stat1Para: Representing spinoffs of Fraunhofer IGD, we are proud to advance the
+  state of the art in digital technology.
+stat2Title: Deep Expertise
+stat2Number: " 150+ Team Members"
+stat2Para: With origins in both world-class R&D as well as industrial
+  applications, our founders and teams represent best-in-class deep tech
+  expertise and market know-how.
 stat3Title: Growth
-stat3Number: 10M Revenue
-stat3Para: This is Stat 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-stat4Title: Funding
-stat4Number: 10M Funding
-stat4Para: This is Stat 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+stat3Number: €10M+ Annual Revenue
+stat3Para: With proven track record in industry, our teams build products that
+  sell, from day one.
+stat4Title: Acceleration
+stat4Number: €10M+ Funding
+stat4Para: Some of our members accelerated their growth through venture capital
+  - with ambitions to disrupt the technological landscape, world-wide, and
+  foster the growth of European technology that takes world-wide leadership.
 ---
