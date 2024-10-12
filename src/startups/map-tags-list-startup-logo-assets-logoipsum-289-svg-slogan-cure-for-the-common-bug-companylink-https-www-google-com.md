@@ -1,8 +1,7 @@
 ---
-logo: /assets/logoipsum-287.svg
-slogan: This is a test slogan for a startup. Edit this one and add new Startups
-  in the CMS.
+logo: /assets/threedy_logo.jpg
+slogan: Enabling companies to visualize any 3D model, on any device.
 tags:
   - startup
-companyLink: https://www.google.com
+companyLink: https://www.threedy.io/
 ---
