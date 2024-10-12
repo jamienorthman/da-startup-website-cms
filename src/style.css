@@ -312,6 +312,7 @@ footer a:hover {
 
 .logo, .slogan {
     align-self: center;
+    object-fit: contain;
 }
 /* ----- CITY SECTION ----- */
 
