@@ -1,6 +1,6 @@
 ---
-role: This is a test role for a job. Edit this one and add new Jobs in the CMS.
+role: Several open positions at Threedy GmbH
 tags:
   - job
-jobLink: https://www.stepstone.de/en/
+jobLink: https://www.threedy.io/career
 ---

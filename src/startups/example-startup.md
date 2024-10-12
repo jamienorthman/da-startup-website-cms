@@ -1,6 +1,8 @@
 ---
-logo: /assets/DGG_Logo_Black-e1708003787975.webp
-slogan: Enabling automated 3D data processing pipelines, at scale.
-tags: ["startup"]
-companyLink: https://www.rapidcompact.com/
+logo: /assets/dgg_logo_black.svg
+slogan: Creators of RapidPipeline - letting businesses succeed at scale, through
+  3D automation.
+tags:
+  - startup
+companyLink: https://rapidpipeline.com/
 ---
