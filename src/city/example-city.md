@@ -20,12 +20,11 @@ imageAlt1: Woman working in tech lab
 heading2: Home to Industry Leaders
 paragraph2: From Merck, one of the most successful pharmaceutical companies in
   the world, to Telekom and other estalished players, Darmstadt has always been
-  a place that is home to industry champions. But not only that - with many
-  small and mid-sized highly innovative tech companies, the city offers a
-  vibrant ecosystem for innovation. This includes Software AG, ISRA Vision,
-  Wella / Coty, Kao, PROSTEP, Alnatura, and many more. In addition, the city is
-  a popular place for tech events, such as Autodesk's Automotive Innovation
-  Forum.
+  a place that is home to industry champions. This includes Software AG, ISRA
+  Vision, Wella / Coty, Kao, PROSTEP, Alnatura, and many more. But not only that
+  - with many small and mid-sized highly innovative tech companies, the city
+  offers a vibrant ecosystem for innovation. In addition, the city is a popular
+  place for tech events, such as Autodesk's Automotive Innovation Forum.
 image2: https://images.unsplash.com/photo-1538449327350-43b4fcfd35ac?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 imageAlt2: Closeup microphone on stage blurred audience background
 heading3: At the Heart of the Metro Region
