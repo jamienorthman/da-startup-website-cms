@@ -106,6 +106,14 @@ p {
     margin-top: 1em;
 }
 
+p a {
+    color: var(--clr-primary-400);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header,
 .stats-container,
 button,
@@ -120,6 +128,10 @@ footer {
 
 .main-logo {
     display: inline-block;
+}
+
+.sbs-container ul {
+    list-style-type: circle;
 }
 
 .startup-container,
