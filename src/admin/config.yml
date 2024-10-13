@@ -41,7 +41,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Paragraph", name: "paragraph", widget: "markdown" }
+      - { label: "Paragraph", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Button Text", name: "buttonText", widget: "string" }
       - { label: "Stat1 Title", name: "stat1Title", widget: "string" }
@@ -65,7 +65,7 @@ collections:
       - { label: "City Image", name: "image", widget: "image" }
       - { label: "Image alt text", name: "imageAlt", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Paragraph", name: "paragraph", widget: "markdown" }
+      - { label: "Paragraph", name: "body", widget: "markdown" }
       - { label: "City Link", name: "cityLink", widget: "string" }
       - { label: "Button text", name: "buttonText", widget: "string" }
   - name: "city"
@@ -76,14 +76,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Heading1", name: "heading1", widget: "string" }
-      - { label: "Paragraph1", name: "paragraph1", widget: "markdown" }
+      - { label: "Paragraph1", name: "body", widget: "markdown" }
       - { label: "Image1", name: "image1", widget: "image" }
       - { label: "Image1 alt text", name: "imageAlt1", widget: "string" }
       - { label: "Heading2", name: "heading2", widget: "string" }
-      - { label: "Paragraph2", name: "paragraph2", widget: "markdown" }
+      - { label: "Paragraph2", name: "body", widget: "markdown" }
       - { label: "Image2", name: "image2", widget: "image" }
       - { label: "Image2 alt text", name: "imageAlt2", widget: "string" }
       - { label: "Heading3", name: "heading3", widget: "string" }
-      - { label: "Paragraph3", name: "paragraph3", widget: "markdown" }
+      - { label: "Paragraph3", name: "body", widget: "markdown" }
       - { label: "Image3", name: "image3", widget: "image" }
       - { label: "Image3 alt text", name: "imageAlt3", widget: "string" }
