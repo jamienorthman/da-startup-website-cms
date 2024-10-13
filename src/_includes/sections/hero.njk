@@ -3,8 +3,10 @@
 <div class="sbs-container" id="hero-info">
     <h1>{{hero.data.title}}
     </h1>
-    <!-- Markdown -->
-    <p>{{ content | safe }}</p>
+    
+    <p>
+        {{ hero.content | safe }}
+    </p>
 
     <a href="{{ hero.data.link }}"><button class="sbs-btn">{{ hero.data.buttonText}}</button></a>
 </div>

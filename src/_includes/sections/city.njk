@@ -3,15 +3,15 @@
 <h1 class="city-title" id="city">{{ city.data.title }}</h1>
 <section class="side-by-side">
     <div class="sbs-container">
-        <h2>{{ city.data.heading1 }}</h2>
-        <p>{{ city.data.paragraph1 }}</p>
+        <p>{{ city.content | safe }}</p>
     </div>
     <div class="img-container">
         <img class="city-img" src="{{ city.data.image1 }}" alt="{{ city.data.imageAlt1 }}">
+        <img class="city-img" src="{{ city.data.image2 }}" alt="{{ city.data.imageAlt2 }}">
     </div>
 </section>
 
-<section class="side-by-side">
+<!-- <section class="side-by-side">
     <div class="sbs-container">
         <h2>{{ city.data.heading2 }}</h2>
         <p>{{ city.data.paragraph2 }}</p>
@@ -29,4 +29,4 @@
     <div class="img-container">
         <img class="city-img" src="{{ city.data.image3 }}" alt="{{ city.data.imageAlt3 }}">
     </div>
-</section>
+</section> -->

@@ -20,5 +20,7 @@ stat4Para: Some of our members accelerated their growth through venture capital
   foster the growth of European technology that takes world-wide leadership.
 title: Supporting a rapidly growing B2B tech startup ecosystem
 stat4Title: Acceleration
+tags:
+  - hero
 ---
 As a group of spinoffs from a single research institute, the [Fraunhofer IGD](https://www.igd.fraunhofer.de/en.html), the Tech **Startup Alliance Darmstadt**, founded in 2024, brings together bright minds, innovators and ambitious founders that are eager to disrupt the state of the art in technology, to the benefit of both our economy and society.

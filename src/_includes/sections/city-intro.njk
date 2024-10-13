@@ -2,14 +2,14 @@
 
 <picture class="img-container" id="city-img">
      <!--Mobile Image-->
-    <source media="(max-width: 600px)" srcset="assets/images/darmstadtium-closeup-m.webp">
+    <source media="(max-width: 600px)" srcset="{{ intro.data.image }}">
      <!--Tablet and above Image-->
-    <source media="(min-width: 601px)" srcset="assets/images/darmstadtium-closeup.webp">
-    <img loading="lazy" decoding="async" src="assets/images/darmstadtium-closeup.webp" alt="{{ intro.data.imageAlt }}">
+    <source media="(min-width: 601px)" srcset="{{ intro.data.image }}">
+    <img loading="lazy" decoding="async" src="{{ intro.data.image }}" alt="{{ intro.data.imageAlt }}">
 </picture>
 
 <div class="sbs-container" id="city-info">
     <h1>{{ intro.data.title }}</h1>
-    <p>{{ intro.data.paragraph }}</p>
+    <p>{{ intro.content | safe }}</p>
     <a href="{{ intro.data.cityLink }}"><button class="sbs-btn">{{ intro.data.buttonText }}</button></a>
 </div>
