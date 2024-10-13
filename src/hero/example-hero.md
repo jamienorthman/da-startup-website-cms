@@ -1,5 +1,5 @@
 ---
-link: "#"
+link: https://tech-startup-alliance.org/#companies
 buttonText: See Companies
 stat1Title: Growing Ecosystem
 stat1Number: 6 Tech Startups
