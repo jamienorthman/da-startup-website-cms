@@ -1,7 +1,7 @@
 ---
 logo: /assets/dgg_logo_black.svg
-slogan: Enabling Businesses to Succeed at Scale, by Making 3D Digital Products
-  as Easy to Handle as 2D Pictures.
+slogan: Enabling businesses to succeed at scale, by making 3D digital products
+  as easy to handle as 2D pictures.
 tags:
   - startup
 companyLink: https://rapidpipeline.com/
