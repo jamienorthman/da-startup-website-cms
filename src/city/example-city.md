@@ -16,6 +16,8 @@ imageAlt2: Darmstadtium convention center foyer
 * Place where MDMA was invented (by Merck)
 * Home to three Fraunhofer Institutes and two great Universitites
 
+
+
 ## At the Heart of Europe, and the Metro Region
 
 Darmstadt offers a vibrant ecosystem for innovation. In addition, the city is a popular place for tech events, such as Autodesk's Automotive Innovation Forum. Only a 20 minutes train ride away from Frankfurt, and with a direct shuttle connection to the Frankfurt Airport terminal, being the central hub of transportation in Europe, the city couldn't be better connected to destinations across Europe, and in the whole the world. Closeby cities in the Rhein-Main region include Mainz, Wiesbaden, and Heidelberg - forming a powerful ecosystem, and a region that has so much to offer and is well-worth living in. In addition, Darmstadt is part of the UNESCO world heritage, and a historical center of the Art Nouveau movement.
