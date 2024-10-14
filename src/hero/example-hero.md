@@ -4,13 +4,11 @@ link: https://tech-startup-alliance.org/#companies
 buttonText: See Companies
 stat1Title: Growing Ecosystem
 stat1Number: 7 Deep Tech Startups
-stat1Para: With 7 local Fraunhofer spinoffs as founding members, we advance our
-  local ecosystem and digital technology.
+stat1Para: 7 local Fraunhofer spinoffs as founding members, advancing the local ecosystem.
 stat2Title: Deep Expertise
 stat2Number: " 150+ Team Members"
-stat2Para: With origins in both world-class R&D as well as industrial
-  applications, our founders and teams represent best-in-class deep tech
-  expertise and market know-how.
+stat2Para: Our teams with origins in world-class R&D for industry pair deep tech
+  expertise with market know-how.
 stat3Title: Growth
 stat3Number: €10M+ Annual Revenue
 stat3Para: With proven track record in industry, our teams build products that
