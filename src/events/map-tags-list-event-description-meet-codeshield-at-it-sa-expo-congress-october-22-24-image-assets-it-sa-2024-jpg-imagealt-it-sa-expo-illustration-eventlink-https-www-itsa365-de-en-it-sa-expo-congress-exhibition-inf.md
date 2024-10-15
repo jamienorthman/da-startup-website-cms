@@ -1,6 +1,6 @@
 ---
 image: /assets/it-sa-2024.jpg
-description: Meet CodeShield at it-sa Expo&Congress (October 22 - 24)
+description: Meet CodeShield at it-sa Expo&Congress, October 22 - 24 in Nuremberg, Germany!
 tags:
   - event
 imageAlt: it-sa expo illustration
