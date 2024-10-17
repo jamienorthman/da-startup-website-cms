@@ -80,6 +80,10 @@ button, input, label {
   color: var(--clr-primary-400);
 }
 
+h1, h2 {
+    font-size: 2.5rem;
+}
+
 ul[role='list'],
 ol[role='list'] {
     list-style: none;
@@ -216,6 +220,10 @@ header {
     margin-top: 1em;
 }
 
+.sbs-container > h2 {
+    margin-top: 2em;
+}
+
 a button {
     padding: 1em;
     border: none;
@@ -266,6 +274,10 @@ footer a, a  {
     justify-content: space-around;
 }
 
+.city-title {
+    margin-bottom: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -313,6 +325,7 @@ ul {
 
 ul li {
     padding: 0.3em 0.85em;
+    font-size: 1.125rem;
 }
 
 nav a:hover,
@@ -516,10 +529,6 @@ img {
         padding: 1.5em;
     }
 
-    .city-title {
-        padding: 0.6em;
-    }
-
     .jobs-section {
         margin-bottom: 3em;
     }
@@ -624,14 +633,6 @@ img {
         margin-right: 0.5em;
     }
     
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    h2 {
-        font-size: 1.75rem;
-    }
-    
     .subheading {
         font-size: 1.25rem;
     }
@@ -659,7 +660,6 @@ img {
 
     .city-title {
         padding: 0;
-        margin-top: 4em;
     }
 }
 

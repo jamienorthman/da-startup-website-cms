@@ -19,7 +19,7 @@ permalink: '/'
 <!-- STARTUPS -->
 
 <section class="startup-section" id="companies">
-    <h1 class="startup-title">Member Startups</h1>
+    <h2 class="startup-title">Member Startups</h2>
     <div class="startups">
         {%- for startup in collections.startup | reverse -%}
             {% include 'startup.njk' %}
@@ -34,7 +34,7 @@ permalink: '/'
 <!-- EVENTS -->
 
 <section class="events-section" id="events">
-    <h1 class="events-title">Events</h1>
+    <h2 class="events-title">Events</h2>
     <div class="events">
         {%- for event in collections.event | reverse -%}
             {% include 'event.njk' %}
@@ -43,7 +43,7 @@ permalink: '/'
 </section>
 
 <section class="jobs-section" id="jobs">
-    <h1>Jobs</h1>
+    <h2>Jobs</h2>
     <div class="jobs">
         {%- for job in collections.job | reverse -%}
             {% include 'job.njk' %}

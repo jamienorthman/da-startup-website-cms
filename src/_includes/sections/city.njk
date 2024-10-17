@@ -1,8 +1,8 @@
 {% set city = collections.city[0] %}
 
-<h1 class="city-title" id="city">{{ city.data.title }}</h1>
 <section class="side-by-side">
     <div class="sbs-container">
+        <h2 class="city-title" id="city">{{ city.data.title }}</h2>
         <p>{{ city.content | safe }}</p>
     </div>
     <div class="img-container">
